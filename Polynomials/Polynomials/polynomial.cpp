@@ -14,20 +14,6 @@ using namespace std;
 #define MAXSIZEOFPOLYCHAR 32
 #define MAXPOLYCOEFF 32
 
-// A utility function to return maximum of two integers
-int max(int m, int n) { return (m > n) ? m : n; }
-
-
-
-// int removeElement(int element, int* array[], int size) {
-// 	    if (size > 0 && element < size -1) {
-// 	        size--;
-// 	        for (; element < size;  ++element) {
-// 	            array[element][0] += array[element+1][0];
-// 	        }
-// 	    }
-// 	    return size;
-// }
 
 
 
