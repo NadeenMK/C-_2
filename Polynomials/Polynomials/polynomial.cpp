@@ -43,6 +43,7 @@ void printPoly(int *poly[], int n)
 {
     for (int i = 0; i < n; i++)
     {
+        cout << poly[i][0];
         if (poly[i][1] != 0){
             if(poly[i][1] ==1)
                 cout << "x";
